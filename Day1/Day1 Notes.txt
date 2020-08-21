@@ -1,0 +1,170 @@
+JAVA
+-----
+pgmming language
+high level
+
+1995
+James gosling
+OAK
+
+JRE & API
+Java runtime environment
+Application Programming interface
+
+
+class Sample
+{
+public static void main(String[] args)
+{
+System.out.println("Welcome to Java");
+}
+}
+
+1.Java SE-Standard
+2.Java EE-Enterprise
+3.Java ME-Micro/Mobile
+
+1.7
+1.8
+
+JVM-JAVA VIRTUAL MACHINE
+------------------------
+1.Specification
+2.Implementation-JRE
+3.Runtime instance
+
+JVM performs operrations
+------------------------
+1.Loads code
+2.verifies code
+3.Executes code
+4.provides runtime environment
+
+Class loader
+------------
+1.Bootstrap 
+Super class of extension CL
+2.Extension
+	child CL of bootstrap & parent CL of 
+system CL
+3.System/Application
+	child CL of extension 
+
+
+Execution engine
+----------------
+1.Virtual processor
+2.Interpreter
+3.JIT compiler-Just in time
+
+
+How to create JAR file in Java
+-------------------------------
+JAR-Java Archive
+
+
+
+Garbage Collection
+------------------
+Daemon thread
+-->used to free heap memory by destroying unreacjable code
+Integer i=new Integer(4);
+i=null;
+
+
+
+OOPS
+------
+1.Class
+	related properties of objects
+
+2.Objects-House
+	instance of a class
+	bundle of data & its behaviour(methods)
+		1.state-Address & color
+		2.behaviour-Open the door & close the door
+
+class House
+{
+	String address;
+	String color;
+
+void openDoor()
+{
+//write a code here
+}
+
+void closeDoor()
+{
+//Write a code here
+}
+}
+
+3.Inheritance
+	one object acquuires the properties & behaviours of parent
+
+class A
+{}
+class B extends A
+{}
+4.Encapsulation
+	binding objects state & behaviour together
+5.Abstraction
+	shows only relevant data & hide unnecessary details
+6.Polymorphism
+	refers to the ability of a avariable ,object or function
+ex.run(program,race,business etc..)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
